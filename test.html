@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+  .hidden {
+  display: none;
+}
+</style>
+
+<body>
+  <div class="col-md-12 address">
+    <div class="title">
+      বর্তমান ঠিকানা
+    </div>
+    <div class="p-address" style="display: flex; gap: 4px;">
+      <select class="form-select" style="width: 20%;">
+        <option value="option1">---বিভাগ---</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option4">---জেলা---</option>
+        <option value="option5">Option 5</option>
+        <option value="option6">Option 6</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option7">---উপজেলা---</option>
+        <option value="option8">Option 8</option>
+        <option value="option9">Option 9</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option7">---ওয়ার্ড---</option>
+        <option value="option8">Option 8</option>
+        <option value="option9">Option 9</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option7">---নির্বাচন করুন---</option>
+        <option value="option8">Option 8</option>
+        <option value="option9">Option 9</option>
+      </select>
+      <textarea type="text" class="form-control" style="width: 20%;"></textarea>
+      <textarea type="text" class="form-control" style="width: 20%;"></textarea>
+    </div>
+  </div>
+  <div class="col-md-6 d-flex">
+    <div class="col-md-10">
+      <h4 class="card-title" id="form-group" style="font-size: 15px;text-decoration: underline;">
+        বর্তমান ঠিকানার মত একই</h4>
+    </div>
+    <div class="col-md-2">
+      <input type="checkbox" id="toggleMessage-p" name="NID" value="num">
+    </div>
+  </div>
+  <div class="col-md-12 address" id="permanentAddressSection">
+    <div class="title">
+      স্থায়ী ঠিকানা
+    </div>
+    <div class="p-address" style="display: flex; gap: 4px;">
+      <select class="form-select" style="width: 20%;">
+        <option value="option1">---বিভাগ---</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option4">---জেলা---</option>
+        <option value="option5">Option 5</option>
+        <option value="option6">Option 6</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option7">---উপজেলা---</option>
+        <option value="option8">Option 8</option>
+        <option value="option9">Option 9</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option7">---ওয়ার্ড---</option>
+        <option value="option8">Option 8</option>
+        <option value="option9">Option 9</option>
+      </select>
+      <select class="form-select" style="width: 20%;">
+        <option value="option7">---নির্বাচন করুন---</option>
+        <option value="option8">Option 8</option>
+        <option value="option9">Option 9</option>
+      </select>
+      <textarea type="text" class="form-control" style="width: 20%;"></textarea>
+      <textarea type="text" class="form-control" style="width: 20%;"></textarea>
+    </div>
+  </div>
+  <script>
+    // Get a reference to the checkbox element
+    var checkbox = document.getElementById("toggleMessage-p");
+
+    // Get a reference to the permanent address section
+    var permanentAddressSection = document.getElementById("permanentAddressSection");
+
+    // Add an event listener to the checkbox
+    checkbox.addEventListener("change", function() {
+      if (checkbox.checked) {
+        // Checkbox is checked, hide the permanent address section
+        permanentAddressSection.classList.add("hidden");
+      } else {
+        // Checkbox is unchecked, show the permanent address section
+        permanentAddressSection.classList.remove("hidden");
+      }
+    });
+  </script>
+
+</body>
+
+</html>

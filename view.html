@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Cuba admin is super flexible, powerful, clean &amp; modern responsive bootstrap 5 admin template with unlimited possibilities.">
+  <meta name="keywords"
+    content="admin template, Cuba admin template, dashboard template, flat admin template, responsive admin template, web app">
+  <meta name="author" content="pixelstrap">
+  <link rel="icon" href="assets/images/logo/PMS.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo/PMS.png" type="image/x-icon">
+  <title>PMS - Profile Management System</title>
+  <!-- Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+  <!-- ico-font-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/icofont.css">
+  <!-- Flag icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/flag-icon.css">
+  <!-- Feather icon-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+  <!-- Plugins css start-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+  <!-- Plugins css Ends-->
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+  <!-- App css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
+  <!-- Responsive css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <!--bootstrap-->
+
+</head>
+
+<body>
+  <!-- loader starts-->
+  <div class="loader-wrapper">
+    <div class="loader-index"> <span></span></div>
+    <svg>
+      <defs></defs>
+      <filter id="goo">
+        <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+        <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"> </fecolormatrix>
+      </filter>
+    </svg>
+  </div>
+  <!-- loader ends-->
+  <!-- tap on top starts-->
+  <div class="tap-top"><i data-feather="chevrons-up"></i></div>
+  <!-- tap on tap ends-->
+  <!-- page-wrapper Start-->
+  <div class="page-wrapper compact-wrapper" id="pageWrapper">
+    <!-- Page Header Start-->
+    <div class="page-header">
+      <div class="header-wrapper row m-0">
+        <form class="form-inline search-full col" action="#" method="get">
+          <div class="form-group w-100">
+            <div class="Typeahead Typeahead--twitterUsers">
+              <div class="u-posRelative">
+                <input class="demo-input Typeahead-input form-control-plaintext w-100" type="text"
+                  placeholder="Search Here .." name="q" title="" autofocus>
+                <div class="spinner-border Typeahead-spinner" role="status"><span class="sr-only">Loading...</span>
+                </div><i class="close-search" data-feather="x"></i>
+              </div>
+              <div class="Typeahead-menu"></div>
+            </div>
+          </div>
+        </form>
+        <div class="header-logo-wrapper col-auto p-0">
+          <div class="logo-wrapper"><a href="index.html"><img class="img-fluid" src="assets/images/logo/PMS-white.png"
+                alt=""></a></div>
+          <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i>
+          </div>
+        </div>
+        <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+          <div class="notification-slider">
+            <div class="d-flex h-100">
+              <h6 class="mb-0 f-w-400"><span class="f-light">Completed Profile </span></h6><a class="ms-1"
+                href="https://1.envato.market/3GVzd" target="_blank">5000</a>
+            </div>
+            <div class="d-flex h-100">
+              <h6 class="mb-0 f-w-400"><span class="f-light">Total User </span></h6><a class="ms-1"
+                href="https://1.envato.market/3GVzd" target="_blank">58</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+          <ul class="nav-menus">
+            <li class="language-nav">
+              <div class="translate_wrapper">
+                <div class="current_lang">
+                  <div class="lang"><i class="flag-icon flag-icon-us"></i><span class="lang-txt">EN </span></div>
+                </div>
+                <div class="more_lang">
+                  <div class="lang selected" data-value="en"><i class="flag-icon flag-icon-us"></i><span
+                      class="lang-txt">English<span> (US)</span></span></div>
+                  <div class="lang" data-value="de"><i class="flag-icon flag-icon-de"></i><span
+                      class="lang-txt">Deutsch</span></div>
+                  <div class="lang" data-value="es"><i class="flag-icon flag-icon-es"></i><span
+                      class="lang-txt">Español</span></div>
+                  <div class="lang" data-value="fr"><i class="flag-icon flag-icon-fr"></i><span
+                      class="lang-txt">Français</span></div>
+                  <div class="lang" data-value="pt"><i class="flag-icon flag-icon-pt"></i><span
+                      class="lang-txt">Português<span> (BR)</span></span></div>
+                  <div class="lang" data-value="cn"><i class="flag-icon flag-icon-cn"></i><span
+                      class="lang-txt">简体中文</span></div>
+                  <div class="lang" data-value="ae"><i class="flag-icon flag-icon-ae"></i><span class="lang-txt">لعربية
+                      <span> (ae)</span></span></div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="mode">
+                <i class="fa fa-lightbulb-o"></i>
+              </div>
+            </li>
+
+            <li class="onhover-dropdown">
+              <div class="notification-box">
+                <i class="fa fa-bell-o"></i><span class="badge rounded-pill badge-secondary">4 </span>
+              </div>
+              <div class="onhover-show-div notification-dropdown">
+                <h6 class="f-18 mb-0 dropdown-title">Notitications </h6>
+                <ul>
+                  <li class="b-l-primary border-4">
+                    <p>Need to update your password <span class="font-danger">10 min.</span></p>
+                  </li>
+                  <li class="b-l-success border-4">
+                    <p>This week you upload 10 profile<span class="font-success">1 hr</span></p>
+                  </li>
+                  <li><a class="f-w-700" href="#">Check all</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="profile-nav onhover-dropdown pe-0 py-0">
+              <div class="media profile-media"><img class="b-r-10" src="assets/images/dashboard/profile.png" alt="">
+                <div class="media-body"><span>Emay Walter</span>
+                  <p class="mb-0 font-roboto">Admin <i class="middle fa fa-angle-down"></i></p>
+                </div>
+              </div>
+              <ul class="profile-dropdown onhover-show-div">
+                <li><a href="#"><i data-feather="user"></i><span>Account </span></a></li>
+                <li><a href="#"><i data-feather="mail"></i><span>Inbox</span></a></li>
+                <li><a href="#"><i data-feather="file-text"></i><span>Taskboard</span></a></li>
+                <li><a href="#"><i data-feather="settings"></i><span>Settings</span></a></li>
+                <li><a href="login.html"><i data-feather="log-in"> </i><span>Log Out</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <script class="result-template" type="text/x-handlebars-template">
+            <div class="ProfileCard u-cf">                        
+            <div class="ProfileCard-avatar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay m-0"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg></div>
+            <div class="ProfileCard-details">
+            <div class="ProfileCard-realName">{{name}}</div>
+            </div>
+            </div>
+          </script>
+        <script class="empty-template"
+          type="text/x-handlebars-template"><div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div></script>
+      </div>
+    </div>
+    <!-- Page Header Ends                              -->
+    <!-- Page Body Start-->
+    <div class="page-body-wrapper">
+      <!-- Page Sidebar Start-->
+      <div class="sidebar-wrapper" sidebar-layout="stroke-svg">
+        <div>
+          <div class="logo-wrapper"><a href="index.html"><img class="img-fluid for-light"
+                src="assets/images/logo/PMS-white.png" alt=""><img class="img-fluid for-dark"
+                src="assets/images/logo/PMS-dark.png" alt=""></a>
+            <div class="back-btn"><i class="fa fa-angle-left"></i></div>
+            <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
+          </div>
+          <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="assets/images/logo/PMS.png"
+                alt=""></a></div>
+          <nav class="sidebar-main">
+            <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+            <div id="sidebar-menu">
+              <ul class="sidebar-links" id="simple-bar">
+                <li class="back-btn"><a href="index.html"><img class="img-fluid" src="assets/images/logo/PMS.png"
+                      alt=""></a>
+                  <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2"
+                      aria-hidden="true"></i></div>
+                </li>
+                <li class="pin-title sidebar-main-title">
+                  <div>
+                    <h6>Pinned</h6>
+                  </div>
+                </li>
+                <li class="sidebar-main-title">
+                  <div>
+                    <h6 class="lan-1">General</h6>
+                  </div>
+                </li>
+                <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                  <label class="badge badge-light-primary">8</label><a class="sidebar-link" href="index.html">
+                    <i class="fa fa-home" style="color: #7366FF;"></i>
+                    <!--svg class="fill-icon">
+                      <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+                    </svg--><span class="lan-3">Dashboard </span></a>
+                </li>
+                <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                  <label class="badge badge-light-primary">8</label><a class="sidebar-link sidebar-title" href="#">
+                    <i class="fa fa-user" style="color: #7366FF;"></i>
+                    <!--svg class="fill-icon">
+                      <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+                    </svg--><span>Profile </span></a>
+                  <ul class="sidebar-submenu">
+                    <li><a href="add-profile.html">Add Profile</a></li>
+                    <li><a href="manage-profile.html">Manage Profile</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
+                  <label class="badge badge-light-primary">8</label><a class="sidebar-link sidebar-title" href="#">
+                    <i class="fa fa-file-text" style="color: #7366FF;"></i>
+                    <!--svg class="fill-icon">
+                      <use href="../assets/svg/icon-sprite.svg#fill-home"></use>
+                    </svg--><span>Report </span></a>
+                  <ul class="sidebar-submenu">
+                    <li><a href="overall.html">Overall Report</a></li>
+                    <li><a href="agency_report.html">Agency Wise Report</a></li>
+                  </ul>
+                </li>
+
+                <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                  <label class="badge badge-light-secondary"></label><a class="sidebar-link sidebar-title" href="#">
+                    <i class="fa fa-users" style="color: #7366FF;"></i>
+                    <!--svg class="fill-icon">
+                      <use href="../assets/svg/icon-sprite.svg#fill-project"></use>
+                    </svg--><span>User </span></a>
+                  <ul class="sidebar-submenu">
+                    <li><a href="user.html">Add User</a></li>
+                    <li><a href="manage_user.html">Manage User </a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-list"><i class="fa fa-thumb-tack"> </i>
+                  <label class="badge badge-light-secondary">8</label><a class="sidebar-link sidebar-title" href="#">
+                    <i class="fa fa-cog" style="color: #7366FF;"></i>
+                    <!--svg class="fill-icon">
+                      <use href="../assets/svg/icon-sprite.svg#fill-project"></use>
+                    </svg--><span>Settings </span></a>
+                  <ul class="sidebar-submenu">
+                    <li><a href="menus.html">Menus</a></li>
+                    <li><a href="add-role.html">Add Role</a></li>
+                    <li><a href="manage-role.html">Manage Role</a></li>
+                    <li><a href="add-category.html">Add Category</a></li>
+                    <li><a href="manage-category.html">Manage Category</a></li>
+                    <li><a href="add-organization.html">Add Organization</a></li>
+                    <li><a href="manage-organization.html">Manage Organization</a></li>
+                  </ul>
+                </li>
+
+                <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+          </nav>
+        </div>
+      </div>
+      <!-- Page Sidebar Ends-->
+      <div class="page-body">
+        <div class="page-title">
+          <div class="row">
+            <div class="col-6">
+              <h4>
+                Add Profile</h4>
+            </div>
+            <div class="col-6">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">
+                    <!--svg class="stroke-icon"> <use href="assets/svg/icon-sprite.svg#stroke-home"></use> </svg--></a>
+                </li>
+                <li class="breadcrumb-item">Dashboard</li>
+                <li class="breadcrumb-item active">View Profile</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <!-- Container-fluid starts-->
+        <div class="row">
+          <form class="form-sample">
+
+            <div class="card">
+              <div class="card-body">
+                <form class="form-sample">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="text-center card-box shadow-none border border-secoundary">
+                        <div class="member-card"
+                          style="padding: 5%; border: 1px solid; height: 300px; overflow-y: scroll;">
+                          <div class="avatar-xl member-thumb mb-3 mx-auto d-block">
+                            <img src="assets/images/mirza.png" class="rounded-circle img-thumbnail" alt="profile-image"
+                              style="
+                                max-width: 100%;height: auto; border-radius: 14px !important; border: 1px !important; ">
+
+                          </div>
+
+                          <div class="">
+                            <h5 class="font-18 mb-1">Mirza Fakhrul Islam Alamgir</h5>
+                            <h6 class="font-18 mb-1">(মির্জা ফখরুল ইসলাম আলমগীর)</h6>
+                            <p class="mb-2">BNP Politicain</p>
+                          </div>
+
+
+                          <hr style="border-color: white;" />
+
+                          <div class="text-left">
+                            <p class=" font-13"><strong>বর্তমান অবস্থানঃ</strong>
+                              <span class="ml-1">বাড়ি নং-২৩, সড়ক নং-১৭, সেক্টর-০৪,
+                                উত্তরা, ঢাকা</span>
+                            </p>
+
+                            <p class=" font-13"><strong>জাতীয় পরিচয় পত্রঃ
+                              </strong><span class="ml-1">19489429406450907 </span>
+                            </p>
+
+                            <p class="font-13"><strong>পাসপোর্টঃ
+                              </strong><span class="ml-1">AC2031015</span></p>
+
+                            <p class=" font-13"><strong>মোবাইলঃ
+                              </strong><span class="ml-1">8801733518873</span></p>
+
+                            <p class=" font-13"><strong>ই-টিনঃ
+                              </strong><span class="ml-1">130986455707</span></p>
+
+                          </div>
+
+                        </div>
+                        <!-- end card-box -->
+
+                      </div>
+
+                    </div>
+                    <div class="col-md-9">
+                      <div class="text-center card-box shadow-none border border-secoundary">
+                        <div class="member-card"
+                          style="padding: 2%; border: 1px solid;  text-align: justify; height: 300px; overflow-y: scroll;">
+                          <p class="text-muted font-13"><strong style="color: rgb(115, 180, 255);">পরিচিতিঃ</strong>
+                          <p class="text-muted font-10">
+                          <p>মির্জা ফখরুল ইসলাম
+                            আলমগীর বাংলাদেশ জাতীয়তাবাদী দল বিএনপির মহাসচিব হিসেবে দায়িত্ব পালন করছেন। মির্জা ফখরুল
+                            ইসলাম আলমগীর তৎকালীন পূর্ব পাকিস্তান ছাত্র ইউনিয়নের (বর্তমানে বাংলাদেশ ছাত্র ইউনিয়ন)
+                            একজন সদস্য ছিলেন এবং সংগঠনটির এস.এম. হল শাখার সাধারণ সম্পাদক নির্বাচিত হয়েছিলেন।
+                            ১৯৬৯-এর গণঅভ্যুত্থানের সময়ে তিনি সংগঠনটির ঢাকা বিশ্ববিদ্যালয় শাখার সভাপতি ছিলেন। তিনি
+                            ১৯৭২ সালে বিসিএস পরীক্ষায় উত্তীর্ণ হয়ে শিক্ষা ক্যাডারে ঢাকা কলেজে অর্থনীতি বিভাগে
+                            শিক্ষকতা পেশায় যোগদান করেছিলেন। মির্জা ফখরুল ইসলাম আলমগীর বাংলাদেশ সরকারের পরিদর্শন ও
+                            আয়-ব্যয় পরীক্ষণ অধিদপ্তরে একজন নীরিক্ষক হিসেবে কাজ করেছিলেন। ১৯৭৯ সালে জিয়াউর রহমানের
+                            শাসনামলে তৎকালীন উপ-প্রধানমন্ত্রী এস. এ. বারীর ব্যক্তিগত সচিব হিসেবে দায়িত্ব পালন
+                            করেছিলেন। ১৯৮২ সালে হুসেইন মুহাম্মদ এরশাদ রাষ্ট্রীয় ক্ষমতায় আসার পর বারী পদত্যাগ করার
+                            পূর্ব পর্যন্ত তিনি এ দায়িত্ব পালন করেছিলেন। বারী পদত্যাগ করার পর মির্জা ফখরুল তার
+                            শিক্ষকতা পেশায় ফিরে গিয়েছিলেন। পরবর্তীতে তিনি ঠাকুরগাঁও সরকারি কলেজে অর্থনীতির অধ্যাপক
+                            হিসেবে যোগদান করে ১৯৮৬ সাল পর্যন্ত শিক্ষকতা করেছিলেন। ১৯৭৯ সালে জিয়াউর রহমানের
+                            শাসনামলে তৎকালীন উপ-প্রধানমন্ত্রী এস. এ. বারীর ব্যক্তিগত সচিব হিসেবে দায়িত্ব পালন
+                            করেছিলেন। ১৯৮২ সালে হুসেইন মুহাম্মদ এরশাদ রাষ্ট্রীয় ক্ষমতায় আসার পর বারী পদত্যাগ করার
+                            পূর্ব পর্যন্ত তিনি এ দায়িত্ব পালন করেছিলেন। বারী পদত্যাগ করার পর মির্জা ফখরুল তার
+                            শিক্ষকতা পেশায় ফিরে গিয়েছিলেন। পরবর্তীতে তিনি ঠাকুরগাঁও সরকারি কলেজে অর্থনীতির অধ্যাপক
+                            হিসেবে যোগদান করে ১৯৮৬ সাল পর্যন্ত শিক্ষকতা করেছিলেন। ১৯৭৯ সালে জিয়াউর রহমানের
+                            শাসনামলে তৎকালীন উপ-প্রধানমন্ত্রী এস. এ. বারীর ব্যক্তিগত সচিব হিসেবে দায়িত্ব পালন
+                            করেছিলেন। ১৯৮২ সালে হুসেইন মুহাম্মদ এরশাদ রাষ্ট্রীয় ক্ষমতায় আসার পর বারী পদত্যাগ করার
+                            পূর্ব পর্যন্ত তিনি এ দায়িত্ব পালন করেছিলেন। বারী পদত্যাগ করার পর মির্জা ফখরুল তার
+                            শিক্ষকতা পেশায় ফিরে গিয়েছিলেন। পরবর্তীতে তিনি ঠাকুরগাঁও সরকারি কলেজে অর্থনীতির অধ্যাপক
+                            হিসেবে যোগদান করে ১৯৮৬ সাল পর্যন্ত শিক্ষকতা করেছিলেন। </p>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-md-12 mt-4">
+                      <div class="text-center card-box shadow-none border border-secoundary">
+                        <div class="member-card" style="padding: 2%; border: 1px solid; text-align: justify;">
+                          <form class="form-sample">
+                            <div class="row">
+                              <div class="col-md-12">
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">প্রোফাইল তৈরির কারন</label>
+                                  <div class="col-sm-9">
+                                    <p>রাজনৈতিক কর্মকান্ডের সহিত সম্পৃক্ততা</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">পূর্ণ নাম (বাংলা)</label>
+                                  <div class="col-sm-9">
+                                    <p> মির্জা ফখরুল ইসলাম আলমগীর</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">পূর্ণ নাম (ইংরেজি)</label>
+                                  <div class="col-sm-9">
+                                    <p> Mirza Fakhrul Islam Alamgir</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">বয়স, জন্ম তারিখ</label>
+                                  <div class="col-sm-9">
+                                    <p>1948-08-01 </p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">ধর্ম ও গোত্র </label>
+                                  <div class="col-sm-9">
+                                    <p>ইসলাম</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">বৈবাহিক অবস্থা</label>
+                                  <div class="col-sm-9">
+                                    <p>বিবাহিত</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">বর্তমান ঠিকানা</label>
+                                  <div class="col-sm-9">
+                                    <p>বাড়ি নং-২৩, সড়ক নং-১৭, সেক্টর-০৪, উত্তরা, ঢাকা</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">স্থায়ী ঠিকানা</label>
+                                  <div class="col-sm-9">
+                                    <p>কালিবাড়ী, ঠাকুর গাও-৫১০০, ঠাকুরগাঁও সদর, ঠাকুরগাঁও </p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">মোবাইল নাম্বার </label>
+                                  <div class="col-sm-9">
+                                    <p>8801733518873</p>
+                                    <p>8801733518873</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">শিক্ষাগত যোগ্যতা</label>
+                                  <div class="col-sm-9">
+                                    <p>মাধ্যমিক- সরকারি কে.জি ইউনিয়ন উচ্চ বিদ্যালয় উচ্চ মাধ্যমিক- ঢাকা কলেজ স্নাতক-
+                                      ঢাকা
+                                      বিশ্ববিদ্যালয় (অর্থনীতি) স্নাতকোত্তর- ঢাকা বিশ্ববিদ্যালয় (অর্থনীতি) </p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">পেশা</label>
+                                  <div class="col-sm-9">
+                                    <p>১) মহাসচিব, বাংলাদেশ জাতীয়তাবাদী দল বিএনপি; ২) সাবেক প্রতিমন্ত্রী, কৃষি
+                                      মন্ত্রণালয় এবং
+                                      বেসামরিক বিমান পরিবহন ও পর্যটন মন্ত্রণালয়; ৩) সাবেক সংসদ সদস্য, ঠাকুরগাঁও-১ আসন
+                                    </p>
+                                  </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">জাতীয় পরিচয়পত্র সংক্রান্ত তথ্য</label>
+                                  <div class="col-sm-9">
+                                    <table>
+                                      <tbody style="
+                                    font-size: 14px;">
+                                        <tr>
+                                          <td>ছবি</td>
+                                          <td>:</td>
+                                          <td><img class="img-responsive" src="assets/images/mirza_1.png" alt="" style="max-width: 100%;
+                                              height: auto;"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>নাম (বাংলা)</td>
+                                          <td>:</td>
+                                          <td>মির্জা ফখরুল ইসলাম আলমগীর</td>
+                                        </tr>
+                                        <tr>
+                                          <td>নাম (ইংরেজী)</td>
+                                          <td>:</td>
+                                          <td>Mirza Fakhrul Islam Alamgir</td>
+                                        </tr>
+                                        <tr>
+                                          <td>এন আই ডি নং</td>
+                                          <td>:</td>
+                                          <td>19489429406450907</td>
+                                        </tr>
+                                        <tr>
+                                          <td>ডিজিটাল এন আই ডি নং</td>
+                                          <td>:</td>
+                                          <td>3298384706</td>
+                                        </tr>
+                                        <tr>
+                                          <td>জন্ম তারিখ</td>
+                                          <td>:</td>
+                                          <td>1948-08-01</td>
+                                        </tr>
+                                        <tr>
+                                          <td>পেশা</td>
+                                          <td>:</td>
+                                          <td>ব্যবসা</td>
+                                        </tr>
+                                        <tr>
+                                          <td>ব্লাড গ্রুপ</td>
+                                          <td>:</td>
+                                          <td>A+</td>
+                                        </tr>
+                                        <tr>
+                                          <td>পিতা</td>
+                                          <td>:</td>
+                                          <td>মির্জা রুহুল আমিন</td>
+                                        </tr>
+                                        <tr>
+                                          <td>মাতা</td>
+                                          <td>:</td>
+                                          <td>ফাতেমা আমিন</td>
+                                        </tr>
+                                        <tr>
+                                          <td>বর্তমান ঠিকানা</td>
+                                          <td>:</td>
+                                          <td> কালিবাড়ী, ঠাকুর গাও-5100,ঠাকুরগাঁও সদর,ঠাকুরগাঁও</td>
+                                        </tr>
+                                        <tr>
+                                          <td>স্থায়ী ঠিকানা</td>
+                                          <td>:</td>
+                                          <td> কালিবাড়ী, ঠাকুর গাও-5100,ঠাকুরগাঁও সদর,ঠাকুরগাঁও</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">পাসপোর্ট সংক্রান্ত তথ্য</label>
+                                  <div class="col-sm-9">
+                                    <img class="img-responsive" id="nid_image" name="nid_image"
+                                      src="assets/images/mirza_2.png" style="max-width: 100%;
+                                      height: auto;">
+                                    <table class="table table-bordered">
+                                      <tbody>
+                                        <tr>
+                                          <td>Name : MIRZA FAKHRUL ISLAM ALAMGIR</td>
+                                          <td>Father's Name : MIRZA RUHUL AMIN </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Mother's Name : FATEMA AMIN</td>
+                                          <td>First Name : MIRZA FAKHRUL ISLAM</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Last Name : ALAMGIR</td>
+                                          <td>Gender : MALE</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Marital Status : MARRIED</td>
+                                          <td>Spouse Name : RAHAT ARA BEGUM</td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <p>Present Address : HOUSE- 23, ROAD- 17, SECTOR- 4, UTTARA, UTTARA, DHAKA
+                                            </p>
+                                          </td>
+                                          <td>
+                                            <p>Permanent Address : KALI BARI, SHAHEED TITUMEER SARAK, THAKURGAON MAIN
+                                              POST
+                                              OFFICE,
+                                              THAKURGAON SADAR, THAKURGAON</p>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>Birth ID : </td>
+                                          <td>Birth Date : 1948-08-01</td>
+                                        </tr>
+                                        <tr>
+                                          <td>NID : 19489429406450907</td>
+                                          <td>Phone : 01733518873</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Nationality : Bangladeshi</td>
+                                          <td>Profession : Business</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Religion : Islam</td>
+                                          <td>Passport : AC2031015</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Previous Passport : W0577755</td>
+                                          <td>Passport Status : Document revoked due to Reissue</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">একাদশ জাতীয় সংসদ নির্বাচনে প্রদত্ত ব্যক্তিগত
+                                    তথ্যাদি</label>
+                                  <div class="col-sm-9">
+                                    <img src="assets/images/ot1.png" alt="" style="max-width: 100%;
+                                    height: auto;">
+                                    <br><br>
+                                    <img src="assets/images/ot2.png" alt="" style="max-width: 100%;
+                                    height: auto;">
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">পিতার পরিচয় </label>
+                                  <div class="col-sm-9">
+                                    <img src="assets/images/f.png" alt="" style="max-width: 100%;
+                                    height: auto;">
+                                    <br><br>
+                                    <p>১৯৬২-৬৬ সালে পরপর দুই বার পূর্ব পকিস্তানের প্রাদেশিক আইন সভার সদস্য নির্বাচিত
+                                      হয়েছিলেন।
+                                      তিনি ঠাকুরগাঁও পৌরসভায় দীর্ঘ ১৭ বছর মেয়র হিসেবে দায়িত্ব পালন করেছিলেন। ১৯৭৯
+                                      সালে তিনি
+                                      দিনাজপুর-৪ ও ১৯৮৮ সালে ঠাকুরগাঁও-২ আসন থেকে জাতীয় সংসদ সদস্য নির্বাচিত
+                                      হয়েছিলেন। তিনি
+                                      বাংলাদেশ সরকারের মন্ত্রীসভার কৃষিমন্ত্রী, সমাজকল্যাণ মন্ত্রী এবং মৎস্য ও পশু
+                                      সম্পদ মন্ত্রী
+                                      হিসেবে দায়িত্ব পালন করেছিলেন।</p>
+
+                                    <p>শিক্ষাগত যোগ্যতাঃ মাধ্যমিক- ঠাকুরগাঁও সরকারি বালক উচ্চ বিদ্যালয়</p>
+
+                                    <p>স্নাতক- কলকাতা বিশ্ববিদ্যালয়</p>
+
+                                    <p>জন্ম তারিখঃ ২৮/০২/১৯২১</p>
+
+                                    <p>মৃত্যু তারিখঃ ১৯/০১/১৯৯৭</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">ফেসবুক অ্যাকাউন্ট </label>
+                                  <div class="col-sm-9">
+                                    <p>https://www.facebook.com/MirzaFakhrulIslamAlamgir.MP</p>
+                                    <br>
+                                    <img src="assets/images/s.png" alt="" style="max-width: 100%;
+                                    height: auto;">
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">প্রয়োজনীয় তথ্য সমূহ</label>
+                                  <div class="col-sm-9">
+                                    <p>১।</p>
+                                    <br>
+                                    <img src="assets/images/ev.png" alt="" style="max-width: 100%;
+                                    height: auto;">
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">প্রোফাইল তৈরির তারিখ </label>
+                                  <div class="col-sm-9">
+                                    <p>০২/০২/২০২৩</p>
+                                  </div>
+                                </div>
+
+                                <div class="form-group row">
+                                  <label class="col-sm-3 col-form-label">প্রোফাইল সিরিয়াল নাম্বার</label>
+                                  <div class="col-sm-9">
+                                    <p>2222</p>
+                                  </div>
+                                </div>
+
+                              </div>
+                          </form>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Container-fluid Ends-->
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="d-sm-flex justify-content-center justify-content-sm-between">
+        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Design and Developed By
+          <img src="assets/images/ops.png" style="height: 20px;"></span>
+        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Copyright © 2019 - 2023 <a
+            href="http://ntmc.gov.bd/">NTMC.</a> All rights reserved</span>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- latest jquery-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Bootstrap js-->
+  <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- feather icon js-->
+  <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+  <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+  <!-- scrollbar js-->
+  <script src="assets/js/scrollbar/simplebar.js"></script>
+  <script src="assets/js/scrollbar/custom.js"></script>
+  <!-- Sidebar jquery-->
+  <script src="assets/js/config.js"></script>
+  <!-- Plugins JS start-->
+  <script src="assets/js/sidebar-menu.js"></script>
+  <script src="assets/js/slick/slick.min.js"></script>
+  <script src="assets/js/slick/slick.js"></script>
+  <script src="assets/js/header-slick.js"></script>
+
+  <script src="assets/js/animation/wow/wow.min.js"></script>
+  <!-- Plugins JS Ends-->
+
+
+  <!-- Theme js-->
+  <script src="assets/js/script.js"></script>
+  <!-- Plugin used-->
+
+</body>
+
+</html>

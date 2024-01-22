@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="essential/select2.min.css">
+</head>
+<body>
+    <section class="pt-5 pb-5">
+    
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-5 mb-5">
+                    <div class="form-area">
+                        <div class="form-inner">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <script>
+        // -----Country Code Selection
+$("#mobile_code").intlTelInput({
+	initialCountry: "in",
+	separateDialCode: true,
+	// utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"
+});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"></script>
+</body>
+
+</html>
